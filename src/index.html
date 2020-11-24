@@ -4,10 +4,114 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Catty Music</title>
+    <!-- prettier-ignore -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div id="app">
-      <div class="page"></div>
+      <div class="page">
+        <main class="main">
+          <aside class="aside">
+            <nav class="nav">
+              <ul>
+                <li><i class="fa fa-bars"></i></li>
+                <li><i class="fa fa-home"></i></li>
+                <li><i class="fa fa-search"></i></li>
+                <li><i class="fa fa-volume-up"></i></li>
+                <li><i class="fa fa-user"></i></li>
+                <li><i class="fa fa-music"></i></li>
+                <li><i class="fa fa-cog"></i></li>
+                <li><i class="fa fa-random"></i></li>
+              </ul>
+            </nav>
+          </aside>
+
+          <section class="content">
+            <div class="music-head">
+              <!--First list item: contains music details-->
+
+              <img src="images/star-cat.jpg" alt="Kats Album Cover" />
+              <!--Album art-->
+
+              <section class="catty-music">
+                <!--other details of the album-->
+                <div>
+                  <p>CattyBoard Top 100 Single Charts (11.06.36)</p>
+                  <p>Unknown Artist</p>
+                  <p>2016 . Charts . 100 songs</p>
+                </div>
+
+                <div class="playlist-controls">
+                  <div>
+                    <i class="fa fa-play"></i>
+                    <span>Play all</span>
+                  </div>
+                  <div>
+                    <i class="fa fa-plus"></i>
+                    <span>Add to</span>
+                  </div>
+                  <div>
+                    <i class="fa fa-ellipsis-h"></i>
+                    <span>More</span>
+                  </div>
+                </div>
+              </section>
+            </div>
+            <!--end .music-head-->
+
+            <ul class="music-list">
+              <!--Second list item: Contains a list of all songs displayed-->
+              <li>
+                <p>1. One Dance</p>
+                <p>Crake feat CatKid &amp; Cyla</p>
+                <p>2:54</p>
+                <p><span class="catty-cloud">CATTY CLOUD SYNC</span></p>
+              </li>
+
+              <li>
+                <p>2. Panda</p>
+                <p>Cattee</p>
+                <p>4:06</p>
+                <p><span class="catty-cloud">CATTY CLOUD SYNC</span></p>
+              </li>
+
+              <li>
+                <p>3. Can't Stop the Feeling!</p>
+                <p>Catin Cimberlake</p>
+                <p>3:56</p>
+                <p><span class="catty-cloud">CATTY CLOUD SYNC</span></p>
+              </li>
+
+              <li>
+                <p>4. Work From Home</p>
+                <p>Cat Harmony feat Colla</p>
+                <p>3:34</p>
+                <p><span class="catty-cloud">CATTY CLOUD SYNC</span></p>
+              </li>
+            </ul>
+          </section>
+        </main>
+
+        <footer class="footer">
+          <section class="footer-left">
+            <img src="images/star-cat.jpg" alt="Kats Alnum Cover" />
+
+            <div>
+              <p>If It Ain't Love</p>
+              <p>Catson Derulo</p>
+            </div>
+          </section>
+
+          <section class="footer-right">
+            <i class="fa fa-step-backward"></i>
+            <i class="fa fa-pause"></i>
+            <i class="fa fa-step-forward"></i>
+            <i class="fa fa-redo-alt"></i>
+            <i class="fa fa-random"></i>
+          </section>
+        </footer>
+      </div>
     </div>
   </body>
 </html>
